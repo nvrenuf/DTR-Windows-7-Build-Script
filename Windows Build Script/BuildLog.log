@@ -1,0 +1,35 @@
+**Windows Server 2008, 2008 R2 and Windows 7 Build Scripts Log File**
+***************************************
+Success: <7/1/2012 2:57:04 PM> From <Start.PS1>: Start.PS1 Initiation Completed. 
+Fail:    <7/1/2012 2:57:15 PM> From <1_OSConfig.PS1>: The term '.\2008R2_Template.PS1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again. 
+Fail:    <7/1/2012 2:57:15 PM> From <1_OSConfig.PS1>: The term 'Write_Host' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again. 
+Fail:    <7/1/2012 2:57:16 PM> From <1_OSConfig.PS1>: The term 'sss#$errorActionPreference' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again. 
+Info:    <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: Computer name unchanged. 
+Success: <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: OS Name and Organization set. 
+Success: <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: Startup and Recovery Option Configured. 
+Success: <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: Remote Desktop configured. 
+Success: <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: Classic Startup Menu configured. 
+Success: <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: Windows Animation disabled. 
+Success: <7/1/2012 2:57:21 PM> From <1_OSConfig.PS1>: Enabled 'Automatically End Hung Applications on Shutdown'. 
+Success: <7/1/2012 2:57:22 PM> From <1_OSConfig.PS1>: Renamed 'My Computer' icon to computer name. 
+Success: <7/1/2012 2:57:23 PM> From <1_OSConfig.PS1>: User Access Control Disabled. 
+Success: <7/1/2012 2:57:23 PM> From <1_OSConfig.PS1>: OS Boot Menu Time Out Setting configured. 
+Info:    <7/1/2012 2:57:23 PM> From <1_OSConfig.PS1>: F:\Powershell\Windows-Build-Script Current\Windows Build Script\locale.xml detected, Start configure system regional settings. 
+Success: <7/1/2012 2:57:27 PM> From <1_OSConfig.PS1>: The system regional setting has been correctly configured. 
+Info:    <7/1/2012 2:57:27 PM> From <1_OSConfig.PS1>: System needs to be rebooted for the regional setting to take effect. 
+Success: <7/1/2012 2:57:40 PM> From <2_network.PS1>: 2_network.PS1 Initiation Completed. 
+Info:    <7/1/2012 2:57:41 PM> From <2_network.PS1>: Connected to WMI repository, Start configuring Network Connections. 
+Success: <7/1/2012 2:57:42 PM> From <2_network.PS1>: Network Connection Local Area Connection 3 has been renamed to Unused_#1. 
+Success: <7/1/2012 2:57:44 PM> From <2_network.PS1>: Disabled Un-used Network Connection Unused_#1. 
+Success: <7/1/2012 2:57:44 PM> From <2_network.PS1>: Disabled Un-used Network Connection Bluetooth Network Connection. 
+Success: <7/1/2012 2:57:45 PM> From <2_network.PS1>: DNS server list is set. 
+Success: <7/1/2012 2:57:45 PM> From <2_network.PS1>: LMHosts Lookup disabled. 
+Info:    <7/1/2012 2:57:45 PM> From <2_network.PS1>: 'Show Network Connection Icon in System Tray' is not supported for this Operating System: Microsoft Windows 7 Enterprise . 
+Success: <7/1/2012 2:57:55 PM> From <3_Security.PS1>: 3_Security.PS1 Initiation Completed. 
+Success: <7/1/2012 2:57:58 PM> From <3_Security.PS1>: The password of the local admin account has been set. 
+Success: <7/1/2012 2:57:59 PM> From <3_Security.PS1>: Guest account renamed, disabled and the password has been set. 
+Info:    <7/1/2012 2:57:59 PM> From <3_Security.PS1>: Security Template F:\Powershell\Windows-Build-Script Current\Windows Build Script\SecPolicy.inf located. Processing... 
+Info:    <7/1/2012 2:57:59 PM> From <3_Security.PS1>: Old Security Database F:\Powershell\Windows-Build-Script Current\Windows Build Script\SecDB.db deleted. 
+Success: <7/1/2012 2:58:02 PM> From <3_Security.PS1>: Security Template successfully imported. Please refer to Security.log for details. 
+Success: <7/1/2012 2:58:02 PM> From <3_Security.PS1>: Windows Firewall disabled. 
+Info:    <7/1/2012 2:58:17 PM> From <Start.PS1>: System Reboot initiated 
